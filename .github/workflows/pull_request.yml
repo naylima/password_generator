@@ -16,5 +16,5 @@ jobs:
           directory: back-end
           file_name: .env.test
           fall_on_empty: true
-      -name: Run tests backend
+      - name: Run tests backend
         run: docker compose -f docker-compose-test.yml run node npm run test   
